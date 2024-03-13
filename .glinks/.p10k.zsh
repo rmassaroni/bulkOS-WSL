@@ -1,0 +1,1 @@
+/home/rjm/.p10k.zsh
