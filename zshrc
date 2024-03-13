@@ -22,9 +22,9 @@ LS_COLORS=$LS_COLORS'ow=1;34:' ; export LS_COLORS
 
 
 
-dir="/mnt/c/Users/12012/dev/env"
+dir="/mnt/c/Users/12012/dev/env/rjscripts"
 source "$dir/shortcuts.sh"
-dir="/mnt/c/Users/12012/dev/env/gpush"
+dir="/mnt/c/Users/12012/dev/env/rjscripts/gpush"
 source "$dir/gconfig.sh"
 source "$dir/gcopy.sh"
 source "$dir/glink.sh"
