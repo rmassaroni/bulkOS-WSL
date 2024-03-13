@@ -34,16 +34,6 @@ source "$dir/gcopy.sh"
 source "$dir/glink.sh"
 source "$dir/gpush.sh"
 
-if [[ $PWD == /mnt/c/Users/12012/dev* ]]; then
-    # Remove the leading /mnt/c/Users/12012/dev from the path
-    path_from_dev=${PWD#"/mnt/c/Users/12012/dev"}
-
-    # Display the path from dev to the current directory
-    PS1='%n@%m dev$path_from_dev %# '
-else
-    # Display the full path for other directories
-    PS1='%n@%m %~ %# '
-fi
 
 # Created by Zap installer
 [ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
@@ -58,16 +48,6 @@ plug "zap-zsh/completions"
 autoload -Uz compinit
 compinit
 
-if [[ $PWD == /mnt/c/Users/12012/dev* ]]; then
-    # Remove the leading /mnt/c/Users/12012/dev from the path
-    path_from_dev=${PWD#"/mnt/c/Users/12012/dev"}
-
-    # Display the path from dev to the current directory
-    PS1='%n@%m dev$path_from_dev %# '
-else
-    # Display the full path for other directories
-    PS1='%n@%m %~ %# '
-fi
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
