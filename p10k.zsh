@@ -112,7 +112,7 @@
     # battery               # internal battery
     # wifi                  # wifi speed
     # example               # example user-defined segment (see prompt_example function below)
-    battery
+    #battery
     os_icon
   )
 
