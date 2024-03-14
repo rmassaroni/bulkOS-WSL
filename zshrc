@@ -18,7 +18,6 @@ LS_COLORS=$LS_COLORS'ow=1;34:' ; export LS_COLORS
 
 
 
-
 dir="/mnt/c/Users/12012/dev/env/rjscripts"
 source "$dir/shortcuts.sh"
 dir="/mnt/c/Users/12012/dev/env/rjscripts/gpush"
@@ -42,8 +41,6 @@ autoload -Uz compinit
 compinit
 
 
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 
