@@ -111,7 +111,7 @@
                 "intenseTextStyle": "bright",
                 "name": "bulkOS",
                 "opacity": 90,
-                "padding": "8",
+                "padding": "8, 8, 0, 8",
                 "source": "Windows.Terminal.Wsl",
                 "startingDirectory": "C:\\Users\\12012\\dev",
                 "tabColor": "#1D3878",
@@ -162,14 +162,11 @@
                 "name": "Profile 99"
             },
             {
-                "commandline": "bash.exe",
-                "guid": "{6b1c3bee-b713-4c9e-b8e6-8c3a0378ee74}",
-                "hidden": false,
-                "name": "bulkOS Classic",
                 "antialiasingMode": "grayscale",
                 "backgroundImageOpacity": 0.13,
                 "bellStyle": "none",
                 "colorScheme": "Campbell",
+                "commandline": "bash.exe",
                 "elevate": false,
                 "experimental.retroTerminalEffect": false,
                 "font": 
@@ -178,9 +175,12 @@
                     "size": 8.0,
                     "weight": "semi-light"
                 },
+                "guid": "{6b1c3bee-b713-4c9e-b8e6-8c3a0378ee74}",
+                "hidden": false,
                 "historySize": 15000,
                 "icon": "C:\\Users\\12012\\Desktop\\Icons\\bulkOS-image.ico",
                 "intenseTextStyle": "bright",
+                "name": "bulkOS Classic",
                 "opacity": 90,
                 "padding": "8",
                 "startingDirectory": "C:\\Users\\12012\\dev",
