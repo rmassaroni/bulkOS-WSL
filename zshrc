@@ -1,11 +1,4 @@
-#echo "Welcome to bulkOS"
-echo " ________         __                                 __              __           __ __     _______ _______                                                                                                   _____ "
-echo "|  |  |  |.-----.|  |.----.-----.--------.-----.    |  |_.-----.    |  |--.--.--.|  |  |--.|       |     __|                                                                                                 /__  /  ____ _____"
-echo "|  |  |  ||  -__||  ||  __|  _  |        |  -__|    |   _|  _  |    |  _  |  |  ||  |    < |   -   |__     |                                                                                                   / /  / __ \`/ __ \ "
-echo "|________||_____||__||____|_____|__|__|__|_____|    |____|_____|    |_____|_____||__|__|__||_______|_______|                                                                                                  / /__/ /_/ / /_/ /"
-echo -n "by RJM--------------------------------------------------------------------------" ; echo "$(date)                                                                                                 /____/\__,_/ .___/"
-echo "                                                                                                                                                                                                                       /_/"
-
+source "/mnt/c/Users/12012/dev/env/rjrc/welcome-message.sh"
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
