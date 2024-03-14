@@ -7,3 +7,6 @@
 [submodule "rjnotes"]
     path = rjplugs/rjnotes
     url = https://github.com/rmassaroni/rjnotes
+[submodule "rjplugs/nvim-4mat"]
+	path = rjplugs/nvim-4mat
+	url = https://github.com/rmassaroni/nvim-4mat
