@@ -10,3 +10,6 @@
 [submodule "rjplugs/nvim-4mat"]
 	path = rjplugs/nvim-4mat
 	url = https://github.com/rmassaroni/nvim-4mat
+[submodule "rjplugs/invis-notes"]
+	path = rjplugs/invis-notes
+	url = https://github.com/rmassaroni/invis-notes
