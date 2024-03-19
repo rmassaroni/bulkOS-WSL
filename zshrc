@@ -25,7 +25,7 @@ source "$dir/gconfig.sh"
 source "$dir/gcopy.sh"
 source "$dir/glink.sh"
 source "$dir/gpush.sh"
-
+HOMEBREW_NO_AUTO_UPDATE=1
 
 # Created by Zap installer
 [ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
