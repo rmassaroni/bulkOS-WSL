@@ -7,12 +7,14 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+
 export PATH=$PATH:/snap/bin
 export PATH=$PATH:/home/rjm/.local/bin:/home/linuxbrew/.linuxbrew/bin
 export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin/brew
 #export PATH=$PATH:/snap/bin/nvim
 LS_COLORS=$LS_COLORS'ow=1;34:' ; export LS_COLORS
-
+export JAVA_HOME=/home/linuxbrew/.linuxbrew/opt/openjdk@17
+export PATH=$PATH:$JAVA_HOME
 
 #export CDPATH=/mnt/c/Users/12012/dev
 
