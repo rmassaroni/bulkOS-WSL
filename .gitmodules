@@ -13,3 +13,6 @@
 [submodule "rjplugs/invis-notes"]
 	path = rjplugs/invis-notes
 	url = https://github.com/rmassaroni/invis-notes
+[submodule "rjplugs/nvim-funs"]
+	path = rjplugs/nvim-funs
+	url = https://github.com/rmassaroni/nvim-funs
