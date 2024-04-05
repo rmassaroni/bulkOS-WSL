@@ -27,7 +27,7 @@ dir="/mnt/c/Users/12012/dev/env/rjscripts/gpush"
 source "$dir/gconfig.sh"
 source "$dir/gcopy.sh"
 source "$dir/glink.sh"
-source "$dir/gpush.sh"
+source "$dir/gpush"
 HOMEBREW_NO_AUTO_UPDATE=1
 
 # Created by Zap installer
@@ -47,3 +47,4 @@ compinit
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+export PATH="$HOME/.gpush:$PATH"
