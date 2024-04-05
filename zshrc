@@ -15,6 +15,7 @@ export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin/brew
 LS_COLORS=$LS_COLORS'ow=1;34:' ; export LS_COLORS
 export JAVA_HOME=/home/linuxbrew/.linuxbrew/opt/openjdk@17
 export PATH=$PATH:$JAVA_HOME
+export PATH="mnt/c/Users/12012/dev/rjscripts/gpush:$PATH"
 
 #export CDPATH=/mnt/c/Users/12012/dev
 
