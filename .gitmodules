@@ -16,3 +16,6 @@
 [submodule "rjplugs/nvim-funs"]
 	path = rjplugs/nvim-funs
 	url = https://github.com/rmassaroni/nvim-funs
+[submodule "rjplugs/nvim-gpush"]
+	path = rjplugs/nvim-gpush
+	url = https://github.com/rmassaroni/nvim-gpush
